@@ -7,4 +7,5 @@ This project combines Machine Learning Latent Dirichlet Allocation and NLP in Ch
 
 [![Watch the video](https://img.youtube.com/vi/SM_nF0dyY04/0.jpg)](https://youtu.be/SM_nF0dyY04)
 
-
+If you have trouble installing it here a tutorial on how to set it up on your pc:
+https://www.loom.com/share/7f4e494d7f0d4cc99e58c19b64d46876
