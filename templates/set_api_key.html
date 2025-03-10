@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Set OpenAI API Key</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter OpenAI API Key</h1>
+        {% if error %}
+            <p style="color:red;">{{ error }}</p>
+        {% endif %}
+        <form action="/set_api_key" method="post">
+            <input type="password" name="openai_api_key" placeholder="Enter your API key" required>
+            <button type="submit">Save API Key</button>
+        </form>
+    </div>
+</body>
+</html>
